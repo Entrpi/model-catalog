@@ -1,0 +1,58 @@
+{
+  "_descriptorVersion": "0.0.1",
+  "datePublished": "2023-10-04T16:20:00",
+  "name": "Mistral-7B-OpenOrca",
+  "description": "Mistral-7B-OpenOrca is currently the top scoring open model on average across a broad set of benchmarks for all models under 30B. Alignment Lab AI trained this model using full parameters fine-tuning of the base Mistral-7B model using a refined subset of the GPT-4 data from the OpenOrca dataset.",
+  "author": {
+    "name": "OpenOrca",
+    "url": "https://huggingface.co/Open-Orca",
+    "blurb": "Current top general purpose model under 30B."
+  },
+  "numParameters": "7B",
+  "resources": {
+    "canonicalUrl": "https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca",
+    "downloadUrl": "https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF",
+  },
+  "trainedFor": "chat",
+  "arch": "llama",
+  "files": {
+    "highlighted": {
+      "economical": {
+        "name": "mistral-7b-openorca.Q4_K_S.gguf"
+      },
+      "most_capable": {
+        "name": "mistral-7b-openorca.Q6_K.gguf"
+      }
+    },
+    "all": [
+      {
+        "name": "mistral-7b-openorca.Q4_K_S.gguf",
+        "url": "https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF/resolve/main/mistral-7b-openorca.Q4_K_S.gguf",
+        "sizeBytes": 7558851360,
+        "quantization": "Q4_K_S",
+        "format": "gguf",
+        "sha256checksum": "55318c58c22c4e4a8dd5504919cefde5f843e848b6c96cd06a3ad69f2f41365b",
+        "publisher": {
+            "name": "TheBloke",
+            "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/Mistral-7B-OpenOrca-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF"
+      },
+      {
+        "name": "mistral-7b-openorca.Q6_K.gguf",
+        "url": "https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF/resolve/main/mistral-7b-openorca.Q6_K.gguf",
+        "sizeBytes": 10829916960,
+        "quantization": "Q6_K",
+        "format": "gguf",
+        "sha256checksum": "0487eb1a91683020cb8dc59b096b9f7e086735efdf1cf5f5ec84c842ec0a6799",
+        "publisher": {
+            "name": "TheBloke",
+            "socialUrl": "https://twitter.com/TheBlokeAI"
+        },
+        "respository": "TheBloke/Mistral-7B-OpenOrca-GGUF",
+        "repositoryUrl": "https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF"
+      }
+    ]
+  }
+}
